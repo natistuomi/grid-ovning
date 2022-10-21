@@ -1,0 +1,32 @@
+.container{
+    grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.a{
+    grid-column: 1/6;
+}
+
+.b{
+    grid-column: 6/11;
+}
+
+.c{
+    grid-column: 1/4;
+}
+
+.d{
+    grid-column: 4/8;
+}
+
+.e{
+    grid-column: 8/11;
+}
+
+.f{
+    grid-column: 1/5;
+}
+
+.g{
+    grid-column: 5/11;
+}
